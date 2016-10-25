@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+* {
+  font-family:"Montserrat", sans-serif;
+}
+
+body {
+  margin:0;
+}
+
+h1, h3 {
+	font-weight:bold;
+}
+
+h2, h4 {
+	font-weight:bold;
+	text-align:center;
+}
+
+hr {
+	border:solid black 1px;
+}
+
+p {
+	margin:20px;
+	font-size:22px;
+}
+
+ul li {
+	font-size:20px;
+}
+
+.border {
+	border:solid #f2f2f2 2px;
+}
+
+.jumbotron {
+	background-color: #f2f2f2;
+	margin-bottom:0;
+    padding: 0.5em 0.6em;
+}
+
+.jumbotron h1  {
+	font-size: 3.5em;
+}
+
+.jumbotron p  {
+	font-size: 1.2em;
+}
+
+.navbar {
+	background-color: #f2f2f2;
+}
+
+
+.me {
+  border-radius:50%;
+  height:280px;
+  width:280px;
+  margin: 30px 20px 15px 0px;
+  border: solid #f2f2f2 10px;
+}
+
+p a:hover {
+	text-decoration:none;
+	color:purple;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+   font-size: 22px;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 22px;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: 22px;
+}
+
+@media (max-width:700px) {
+	p{
+		width:100%;
+		text-align:center;
+		margin-left:-2px;
+	}
+	
+	.jumbotron h1  {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width:600px) {
+	.me {
+		height:75%;
+		width:75%;
+		margin-left:15%;
+	}
+	
+	.border {
+		border:0;
+		width:90%;
+		margin-left:5%;
+	}
+}
