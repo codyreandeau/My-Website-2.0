@@ -34,6 +34,10 @@ ul li {
 	font-size:20px;
 }
 
+.navbar-right li {
+    display: inline-block;
+}
+
 .border {
 	border:solid #f2f2f2 2px;
 }
